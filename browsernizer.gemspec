@@ -4,7 +4,7 @@ require "browsernizer/version"
 
 Gem::Specification.new do |s|
   s.name        = "browsernizer"
-  s.version     = Browsernizer::VERSION
+  s.version     = "#{Browsernizer::VERSION}.adammck#{`git rev-parse --short HEAD`}"
   s.authors     = ["Milovan Zogovic"]
   s.email       = ["milovan.zogovic@gmail.com"]
   s.homepage    = ""
